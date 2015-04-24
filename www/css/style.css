@@ -1,0 +1,28 @@
+/* Empty. Add your own CSS if you like */
+* {
+  box-sizing: border-box;
+}
+
+h1 img {
+  max-height: 100%;
+}
+
+.sounds {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.sounds i {
+  display: block;
+  font-size: 4em;
+}
+
+.sounds li {
+  display: inline-block;
+  width: 25%;
+  margin-right: 5%;
+}
+
+.sounds li:first-child {
+  margin-left: 5%;
+}
