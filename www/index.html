@@ -33,8 +33,7 @@
       </ion-header-bar>
       <ion-content ng-controller="SoundCtrl">
         <ul class="sounds">
-          <li class="button" ng-repeat="sound in sounds" ng-click="playSound('{{sound.file}}')">
-            <i class="{{sound.icon}}"></i>
+          <li class="button" ng-repeat="sound in sounds" ng-click="playSound('{{sound}}')">
             {{sound.title}}
           </li>
         </ul>
