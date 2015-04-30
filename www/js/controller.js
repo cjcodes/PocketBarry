@@ -3,7 +3,7 @@ angular.module('PocketBarry.controllers', [])
 .controller('SoundCtrl', function ($scope) {
   $scope.sounds = [
     {
-      'files': ['AwwYiss.mp3', 'AwwYiss2.mp3', 'AwwYiss3.mp3'],
+      'files': ['AwYiss.mp3', 'AwYiss2.mp3', 'AwYiss3.mp3'],
       'icon': 'ion-soup-can-outline',
       'title': 'Aww Yiss'
     },
