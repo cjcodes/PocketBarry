@@ -14,15 +14,32 @@ h1 img {
 
 .sounds i {
   display: block;
-  font-size: 4em;
+  
 }
 
 .sounds li {
   display: inline-block;
   width: 25%;
   margin-right: 5%;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin:0.7em;
+  padding: 0.3em;
+  background-color: #fff;
+  border-width: 2px;
+  border-color: #eee;
+}
+
+.sounds li:hover {
+  border-color: #81c483;
+  border-width: 2px;
+}
+
+.sounds li:active{
+  background-color: #fff;
 }
 
 .sounds li:first-child {
-  margin-left: 5%;
+  
 }
